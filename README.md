@@ -3,7 +3,7 @@
 **MuseCog** is a repository of neural network models designed to simulate cognitive processes underlying music perception. These models are intended to support research on perceptual and affective mechanisms in behavioral and neuroimaging studies. Current implementations focus on modeling listener expectations for upcoming notes and rhythms in polyphonic music.
 
 <div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExamx0dnI3enBsMXJ1eHFubzhsajlpcTkxd2wxcDJ2eGV0Yjc5dGZ6cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lZOf8i68nhLbE5WfMk/giphy.webp" alt="PolyRNN Demo">
+  <img src="PolyRNN_demo.gif" alt="PolyRNN Demo">
   <br>
   <em>PolyRNN predictions in Bach's prelude in C# Major</em>
   <br>
