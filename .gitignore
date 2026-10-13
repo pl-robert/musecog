@@ -1,1 +1,5 @@
 /.venv
+__pycache__/
+/tmp_checks/
+check_export_pipeline.ipynb
+compare_export_old_new.ipynb

@@ -49,7 +49,7 @@ def convert_midi_to_piano_roll(data_path = './data/', out_dir = './data/piano_ro
             torch.save(pr, out_dir + file_name.split('.')[0] + '.pt')
 
             if save_midi_timings:
-                timings[file_name[:-len(files[0].split('.')[-1])-1]] = onsets_timing
+                timings[file_name.split('.')[0]] = onsets_timing #same name as the saved piano roll
 
     if save_midi_timings:
         with open(out_dir + 'timings.pkl', 'wb') as f:
