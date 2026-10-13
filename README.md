@@ -13,16 +13,17 @@
 
 This repository contains:
 * PolyRNN: an LSTM model built to yield time-resolved predictions in polyphonic music.
-* PolyTNN : equivalent to PolyRNN, with a transformer architecture.
+* PolyTNN: equivalent to PolyRNN, with a transformer architecture.
 
 More information about this framework can be found in Robert et al. (2024),
 please use this as citation in publications using this software.
 
-Robert et al., (2024). [Multi-stream predictions in human auditory cortex during natural music listening](https://www.biorxiv.org/content/10.1101/2024.11.27.625704v1). *bioRxiv, 2024-11*
+Robert et al., (2024). [PolyRNN: A time-resolved model of polyphonic musical expectations aligned with human brain responses](https://www.biorxiv.org/content/10.1101/2024.11.27.625704v2). *bioRxiv, 2024-11*
 
 ## Setup
 
 In this initial release, the code has been tested on Windows 11 with [Python 3.9.13](https://www.python.org/downloads/release/python-3913/).
+Estimated installation time: ~ 40 minutes.
 
 ### CUDA install
 
@@ -75,6 +76,9 @@ training, we recommand using pre-built MIDI datasets like [MAESTRO V3.0.0](https
 
 Pre-trained models PolyRNN and PolyTNN are provided in ```./versions/```, and can be accessed directly with the ```make_video()```
 and ```export_features()``` functions.
+
+Training a new model can take from several hours to several days depending on the training parameters and the hardware.
+Generating new predictions with a trained model generally takes a few minutes, depending on the size of the dataset (GPU is required for transformer models).
 
 
 
